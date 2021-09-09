@@ -83,7 +83,7 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-.header-nav {
+.header__container {
   display: flex;
   align-items: center;
 }
@@ -100,14 +100,14 @@ img {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-.logo-fisrtpart {
+.logo__fisrtpart {
   color: var(--accent-color);
 }
-.logo-secondpart {
+.logo__secondpart {
   color: #000000;
 }
 
-.header-navigation {
+.navigation {
   display: flex;
   align-items: center;
 
@@ -117,14 +117,14 @@ img {
   letter-spacing: 0.02em;
 }
 
-.header-list {
+.navigation__list {
   display: flex;
 }
-.header-item:not(:last-child) {
+.navigation__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-link {
+.navigation__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -136,20 +136,20 @@ img {
   transition-delay: var(--animation-delay);
 }
 
-.header-item {
+.navigation__item {
   position: relative;
 }
 
-.header-link:hover,
-.header-link:focus {
+.navigation__link:hover,
+.navigation__link:focus {
   color: var(--accent-color);
 }
 
-.active {
+.navigation__link--active {
   color: var(--accent-color);
 }
 
-.active:after {
+.navigation__link--active:after {
   content: "";
   position: absolute;
   height: 4px;
@@ -161,19 +161,19 @@ img {
   border-radius: 2px;
 }
 
-.header-conacts {
+.conacts {
   display: flex;
   margin-left: auto;
   align-items: center;
 }
 
-.contacts-item {
+.contacts__item {
   justify-content: center;
   align-items: center;
 }
 
-.contacts-item:hover,
-.contacts-item:focus {
+.contacts__item:hover,
+.contacts__item:focus {
   color: var(--accent-color);
 }
 
@@ -182,11 +182,11 @@ img {
   fill: var(--accent-color);
 }
 
-.contacts-item + .contacts-item {
+.contacts__item + .contacts__item {
   margin-left: 50px;
 }
 
-.contacts-link {
+.contacts__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -203,7 +203,7 @@ img {
   transition-delay: var(--animation-delay);
 }
 
-.contacts-icon {
+.contacts__icon {
   margin-right: 10px;
   fill: var(--maine-text-color);
 
@@ -213,18 +213,18 @@ img {
   transition-delay: var(--animation-delay);
 }
 
-.contacts-icon {
+.contacts__icon {
   justify-content: center;
   align-items: center;
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts__link:hover,
+.contacts__link:focus {
   color: var(--accent-color);
 }
 
-.contacts-link:hover .contacts-icon,
-.contacts-link:focus .contacts-icon {
+.contacts__link:hover .contacts__icon,
+.contacts__link:focus .contacts__icon {
   fill: var(--accent-color);
 }
 
@@ -253,7 +253,7 @@ img {
   background-image: url("./images/background/Img.jpg");
 } */
 
-.hero-title {
+.hero__title {
   margin: 0 auto 30px;
   max-width: 696px;
 
@@ -265,7 +265,7 @@ img {
   color: var(--primary-white-color);
 }
 
-.hero-button {
+.hero__button {
   display: inline-block;
   border-radius: 4px;
   padding: 10px 32px;
@@ -288,25 +288,25 @@ img {
   transition-delay: var(--animation-delay);
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero__button:hover,
+.hero__button:focus {
   background-color: #188ce8;
 }
 
 /*------features------ */
-.features-list {
+.features__list {
   display: flex;
 }
 
-.features-item + .features-item {
+.features__item + .features__item {
   margin-left: 30px;
 }
 
-.features-item {
+.features__item {
   width: 270px;
 }
 
-.features-icons {
+.features__icons {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -328,7 +328,7 @@ img {
   display: block;
 } */
 
-.features-description {
+.features__description {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -339,7 +339,7 @@ img {
   color: var(--maine-title-color);
 }
 
-.features-text {
+.features__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -351,7 +351,7 @@ img {
   padding-bottom: 94px;
 }
 
-.about-title {
+.about__title {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -362,20 +362,20 @@ img {
   color: var(--maine-title-color);
 }
 
-.about-list {
+.about__list {
   display: flex;
 }
 
-.about-item {
+.about__item {
   position: relative;
 }
 
-.about-item:not(:last-child) {
+.about__item:not(:last-child) {
   margin-right: 30px;
   min-width: 370px;
 }
 
-.about-discription {
+.about__discription {
   position: absolute;
   bottom: 0;
   left: 0;
