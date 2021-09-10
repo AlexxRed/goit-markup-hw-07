@@ -16,48 +16,44 @@
   background-position: 50% 50%;
   background-size: cover;
   max-width: 1600px;
-}
 
-/* .hero-container {
-  background-image: url("./images/background/Img.jpg");
-} */
+  &__title {
+    margin: 0 auto 30px;
+    max-width: 696px;
 
-.hero__title {
-  margin: 0 auto 30px;
-  max-width: 696px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+  }
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--primary-white-color);
-}
+  &__button {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+    height: 50px;
+    border-color: var(--accent-color);
 
-.hero__button {
-  display: inline-block;
-  border-radius: 4px;
-  padding: 10px 32px;
-  min-width: 200px;
-  height: 50px;
-  border-color: var(--accent-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-  background-color: var(--accent-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  color: var(--primary-white-color);
-  text-align: center;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition-property: background-color;
+    transition-duration: var(--animation-time);
+    transition-timing-function: var(--animation-timing-function);
+    transition-delay: var(--animation-delay);
+  }
 
-  transition-property: background-color;
-  transition-duration: var(--animation-time);
-  transition-timing-function: var(--animation-timing-function);
-  transition-delay: var(--animation-delay);
-}
-
-.hero__button:hover,
-.hero__button:focus {
-  background-color: #188ce8;
+  &__button:hover,
+  &__button:focus {
+    background-color: #188ce8;
+  }
 }

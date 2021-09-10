@@ -4,28 +4,29 @@
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-.worker:not(:last-child) {
-  margin-right: 30px;
-}
 
-.worker__description {
-  padding: 30px;
-}
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 
-.worker__name {
-  margin-bottom: 10px;
+  &__description {
+    padding: 30px;
+  }
 
-  font-size: 16px;
-  font-weight: 500;
-}
+  &__name {
+    margin-bottom: 10px;
 
-.worker__text {
-  margin-bottom: 16px;
-  color: var(--maine-text-color);
-}
+    font-size: 16px;
+    font-weight: 500;
+  }
 
-.worker__socials {
-  display: flex;
-  justify-content: center;
+  &__text {
+    margin-bottom: 16px;
+    color: var(--maine-text-color);
+  }
+
+  &__socials {
+    display: flex;
+    justify-content: center;
+  }
 }

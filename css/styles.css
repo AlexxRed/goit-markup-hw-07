@@ -625,7 +625,7 @@ img {
   display: flex;
 }
 
-.socials__item:not(:last-child) {
+.social__item:not(:last-child) {
   margin-right: 10px;
 }
 

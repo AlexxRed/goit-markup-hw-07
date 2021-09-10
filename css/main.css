@@ -130,6 +130,10 @@ img {
   margin-right: 50px;
 }
 
+.navigation__item {
+  position: relative;
+}
+
 .navigation__link {
   display: block;
   padding-top: 32px;
@@ -145,12 +149,7 @@ img {
           transition-delay: var(--animation-delay);
 }
 
-.navigation__item {
-  position: relative;
-}
-
-.navigation__link:hover,
-.navigation__link:focus {
+.navigation__link:hover, .navigation__link:focus {
   color: var(--accent-color);
 }
 
@@ -179,7 +178,7 @@ img {
           align-items: center;
 }
 
-.contacts__item {
+.conacts__item {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -188,17 +187,11 @@ img {
           align-items: center;
 }
 
-.contacts__item:hover,
-.contacts__item:focus {
+.conacts__item:hover, .conacts__item:focus {
   color: var(--accent-color);
 }
 
-.header-icon:hover,
-.header-icon:focus {
-  fill: var(--accent-color);
-}
-
-.contacts__item + .contacts__item {
+.conacts .contacts__item + .contacts__item {
   margin-left: 50px;
 }
 
@@ -279,9 +272,6 @@ img {
   max-width: 1600px;
 }
 
-/* .hero-container {
-  background-image: url("./images/background/Img.jpg");
-} */
 .hero__title {
   margin: 0 auto 30px;
   max-width: 696px;
@@ -319,8 +309,7 @@ img {
           transition-delay: var(--animation-delay);
 }
 
-.hero__button:hover,
-.hero__button:focus {
+.hero__button:hover, .hero__button:focus {
   background-color: #188ce8;
 }
 
@@ -330,7 +319,7 @@ img {
   display: flex;
 }
 
-.features__item + .features__item {
+.features .features__item + .features__item {
   margin-left: 30px;
 }
 
@@ -372,6 +361,7 @@ img {
 }
 
 .about {
+  padding-top: 0px;
   padding-bottom: 94px;
 }
 
@@ -485,10 +475,6 @@ img {
           justify-content: center;
 }
 
-.social__item:not(:last-child) {
-  margin-right: 10px;
-}
-
 .social__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -599,8 +585,7 @@ img {
           transition-delay: var(--animation-delay);
 }
 
-.customer__link:hover,
-.customer__link:focus,
+.customer__link:hover, .customer__link:focus,
 .customer__link:hover .customer__icon,
 .customer__link:focus .customer__icon {
   fill: var(--accent-color);
@@ -613,7 +598,7 @@ img {
   display: flex;
 }
 
-.features__item + .features__item {
+.features .features__item + .features__item {
   margin-left: 30px;
 }
 
@@ -691,7 +676,7 @@ img {
   color: var(--primary-white-color);
 }
 
-.footer__item:first-child {
+.address__item:first-child {
   margin-bottom: 9px;
 }
 
@@ -711,8 +696,7 @@ img {
           transition-delay: var(--animation-delay);
 }
 
-.address__link:hover,
-.address__link:focus {
+.address__link:hover, .address__link:focus {
   color: var(--accent-color);
 }
 
@@ -895,8 +879,7 @@ img {
           transition-delay: var(--animation-delay);
 }
 
-.subscribe__button:hover,
-.subscribe__button:focus {
+.subscribe__button:hover, .subscribe__button:focus {
   background-color: #188ce8;
 }
 
@@ -961,13 +944,11 @@ img {
           transition-delay: var(--animation-delay);
 }
 
-.modal__button:hover,
-.modal__button:focus {
+.modal__button:hover, .modal__button:focus {
   fill: var(--accent-color);
 }
 
-.modal__icon:hover,
-.modal__icon:focus {
+.modal__icon:hover, .modal__icon:focus {
   fill: var(--accent-color);
 }
 
@@ -1100,8 +1081,7 @@ img {
   border-color: var(--accent-color);
 }
 
-.form__input:hover,
-.form__input:focus {
+.form__input:hover, .form__input:focus {
   border-color: var(--accent-color);
 }
 
@@ -1153,8 +1133,7 @@ img {
           transition-delay: var(--animation-delay);
 }
 
-.form__comment:hover,
-.form__comment:focus {
+.form__comment:hover, .form__comment:focus {
   border-color: var(--accent-color);
 }
 
@@ -1220,8 +1199,7 @@ img {
           transition-delay: var(--animation-delay);
 }
 
-.form__button:hover,
-.form__button:focus {
+.form__button:hover, .form__button:focus {
   background-color: #188ce8;
 }
 
@@ -1237,10 +1215,6 @@ img {
 
 .filters__item:not(:last-child) {
   margin-right: 8px;
-}
-
-.projects__title {
-  color: var(--maine-title-color);
 }
 
 .filters__button {
@@ -1266,8 +1240,7 @@ img {
           transition-delay: var(--animation-delay);
 }
 
-.filters__button:hover,
-.filters__button:focus {
+.filters__button:hover, .filters__button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);

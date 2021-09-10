@@ -5,10 +5,11 @@
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-}
-.logo__fisrtpart {
-  color: var(--accent-color);
-}
-.logo__secondpart {
-  color: #000000;
+
+  &__fisrtpart {
+    color: var(--accent-color);
+  }
+  &__secondpart {
+    color: #000000;
+  }
 }

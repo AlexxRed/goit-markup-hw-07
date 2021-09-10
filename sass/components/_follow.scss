@@ -1,21 +1,21 @@
 .follow {
   margin-left: 70px;
-}
 
-.follow__title {
-  margin-bottom: 20px;
+  &__title {
+    margin-bottom: 20px;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
-  color: var(--primary-white-color);
-}
+    color: var(--primary-white-color);
+  }
 
-.follow__socials {
-  display: flex;
+  &__socials {
+    display: flex;
+  }
 }
 
 .socials__item:not(:last-child) {

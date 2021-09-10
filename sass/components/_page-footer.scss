@@ -3,16 +3,16 @@
   padding-bottom: 60px;
 
   background-color: var(--second-backgroud-color);
-}
 
-.footer__container {
-  display: flex;
-  align-items: baseline;
-}
+  &__container {
+    display: flex;
+    align-items: baseline;
+  }
 
-.footer__logo {
-  display: block;
-  margin-bottom: 20px;
+  &__logo {
+    display: block;
+    margin-bottom: 20px;
+  }
 }
 
 .logo__secondpart--change {
