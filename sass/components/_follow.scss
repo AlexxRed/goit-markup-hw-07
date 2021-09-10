@@ -1,0 +1,49 @@
+.follow {
+  margin-left: 70px;
+}
+
+.follow__title {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+
+.follow__socials {
+  display: flex;
+}
+
+.socials__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social__link--gray-background {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social__icon--white-theme {
+  fill: var(--primary-white-color);
+
+  transition-property: fill;
+  transition-duration: var(--animation-time);
+  transition-timing-function: var(--animation-timing-function);
+  transition-delay: var(--animation-delay);
+}
+
+.social__link:hover,
+.social__link:focus,
+.social__link:hover .footer-svg,
+.social__link:focus .footer-svg {
+  fill: var(--primary-white-color);
+}
