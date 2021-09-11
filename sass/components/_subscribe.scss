@@ -5,7 +5,7 @@
 
   &__title {
     flex-direction: column;
-    font-weight: 700;
+    font-weight: $secondary-weight-bold;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -30,7 +30,7 @@
   }
 
   &__input input::placeholder {
-    font-weight: 400;
+    font-weight: $main-font-weight;
     font-size: 16px;
     line-height: 1.25;
     display: flex;
@@ -51,7 +51,7 @@
     border-color: var(--accent-color);
 
     background-color: var(--accent-color);
-    font-weight: 700;
+    font-weight: $secondary-weight-bold;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;

@@ -497,22 +497,21 @@ img {
           transition-timing-function: var(--animation-timing-function);
   -webkit-transition-delay: var(--animation-delay);
           transition-delay: var(--animation-delay);
+  /* .social-link:hover,
+.social-link:focus, */
 }
 
-.social__link:hover,
-.social__link:focus {
+.social__link:hover, .social__link:focus {
   background-color: var(--accent-color);
 }
 
-/* .social-link:hover,
-.social-link:focus, */
 .social__link:hover .social__icon,
 .social__link:focus .social__icon {
   fill: var(--primary-white-color);
   /* background-color: var(--accent-color); */
 }
 
-.social__icon {
+.social__link .social__icon {
   -webkit-transition-property: fill;
   transition-property: fill;
   -webkit-transition-duration: var(--animation-time);
@@ -523,7 +522,7 @@ img {
           transition-delay: var(--animation-delay);
 }
 
-.social__icon--fill {
+.social__link .social__icon--fill {
   fill: var(--icon-color);
 }
 
@@ -590,53 +589,6 @@ img {
 .customer__link:focus .customer__icon {
   fill: var(--accent-color);
   border-color: var(--accent-color);
-}
-
-.features__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.features .features__item + .features__item {
-  margin-left: 30px;
-}
-
-.features__item {
-  width: 270px;
-}
-
-.features__icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 30px;
-  background-color: var(--maine-background-color);
-  border-radius: 4px;
-  width: 270px;
-  height: 120px;
-}
-
-.features__description {
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--maine-title-color);
-}
-
-.features__text {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .footer {
@@ -1283,8 +1235,7 @@ img {
           transition-delay: 0ms;
 }
 
-.projects__link:hover,
-.projects__link:focus {
+.projects__link:hover, .projects__link:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }

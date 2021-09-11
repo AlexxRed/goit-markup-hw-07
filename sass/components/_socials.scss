@@ -11,28 +11,28 @@
   transition-duration: var(--animation-time);
   transition-timing-function: var(--animation-timing-function);
   transition-delay: var(--animation-delay);
-}
 
-.social__link:hover,
-.social__link:focus {
-  background-color: var(--accent-color);
-}
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 
-/* .social-link:hover,
+  /* .social-link:hover,
 .social-link:focus, */
-.social__link:hover .social__icon,
-.social__link:focus .social__icon {
-  fill: var(--primary-white-color);
-  /* background-color: var(--accent-color); */
-}
+  &:hover .social__icon,
+  &:focus .social__icon {
+    fill: var(--primary-white-color);
+    /* background-color: var(--accent-color); */
+  }
 
-.social__icon {
-  transition-property: fill;
-  transition-duration: var(--animation-time);
-  transition-timing-function: var(--animation-timing-function);
-  transition-delay: var(--animation-delay);
-}
+  .social__icon {
+    transition-property: fill;
+    transition-duration: var(--animation-time);
+    transition-timing-function: var(--animation-timing-function);
+    transition-delay: var(--animation-delay);
+  }
 
-.social__icon--fill {
-  fill: var(--icon-color);
+  .social__icon--fill {
+    fill: var(--icon-color);
+  }
 }

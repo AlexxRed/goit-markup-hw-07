@@ -1,4 +1,5 @@
 :root {
+  // color
   --maine-title-color: #212121;
   --maine-text-color: #757575;
   --accent-color: #2196f3;
@@ -7,72 +8,17 @@
   --second-backgroud-color: #2f303a;
   --address-color: rgba(255, 255, 255, 0.6);
   --icon-color: #afb1b8;
+
+  // animation
   --animation-time: 250ms;
   --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   --animation-delay: 0ms;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--maine-text-color);
-  background-color: var(--primary-white-color);
-}
-
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0px;
-  padding: 0px;
-}
-
-ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.list {
-  list-style: none;
-}
-
-.btn {
-  cursor: pointer;
-}
+// fonts
+$main-font-family: "Roboto", sans-serif;
+$secondary-font-family: "Raleway", sans-serif;
+$mainfont-style: normal;
+$main-font-weight: 400;
+$secondary-weight-bold: 700;
+$third-font-weight: 500;

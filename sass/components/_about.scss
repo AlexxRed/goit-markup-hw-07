@@ -4,7 +4,7 @@
 
   &__title {
     margin-bottom: 50px;
-    font-weight: 700;
+    font-weight: $secondary-weight-bold;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -37,7 +37,7 @@
     height: 70px;
     width: 100%;
 
-    font-weight: 700;
+    font-weight: $secondary-weight-bold;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
